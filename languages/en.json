@@ -1,0 +1,10 @@
+{
+    "header": {
+        "guest number":"Guest",
+        "days":"Days ",
+        "host"      : "Host",
+        "sign-up" : "Sign up",
+        "sign-in"   : "Sign in"
+        
+    }
+}

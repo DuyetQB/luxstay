@@ -1,0 +1,10 @@
+{
+    "header": {
+        "guest number":"손님  ",
+        "days":"그날들",
+        "host"      : "주최자",
+        "sign-up" : "가입하기",
+        "sign-in"   : "로그인"
+        
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "header": {
+        "guest number":"Số khách ",
+        "days":"ngày ",
+        "host"      : "host",
+        "sign-up" : "Đăng kí ",
+      
+        "sign-in"   : "Đăng nhập " 
+    }
+
+}

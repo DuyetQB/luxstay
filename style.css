@@ -1253,6 +1253,73 @@ right:0px;
 .content .travelUSE #prevUSE{
 left:0px;
 }
+
+
+
+.content .information{
+    height:500px;
+   
+    display: var(--display);
+}
+
+.content .information .information-left-detail .information-left-svg{
+    width: 400px;
+}
+.content .information .information-left-detail .information-left-h1{
+    font-size: 34px;
+    margin-top: 10px;
+    margin-bottom: 20px ;
+}
+.content .information .information-left-wrap-zip{
+
+padding-top: 50px;
+display: var(--display);
+
+}
+.content .information .information-left-wrap-zip .zip-cover-image{
+    width:200px;
+    height:200px;
+    border: 1px solid rgb(228, 225, 225);
+   text-align: center;
+  
+   
+}
+.content .information .information-left-wrap-zip .zip-cover-image .zip-cover-image-img{
+    width:170px;
+    height:170px;
+    margin-top: 15px;
+ 
+}
+.content .information .information-left-wrap-zip .zip-wrap-icon{
+   
+  width: 61%;
+    height:100px;
+    display: var(--display);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+.content .information .information-left-wrap-zip .zip-wrap-icon .zip-icon{
+    width:124px;
+    height:40px;
+   
+    cursor: pointer;
+}
+.content .information .information-left-wrap-zip .zip-wrap-icon .zip-icon:nth-child(2){
+   margin-left: 10px;
+}
+.content .information .information-left-wrap-zip .zip-wrap-icon .zip-icon:nth-child(3){
+margin-right: 135px;
+}
+.content .information .information-left,.information-right{
+    width:50%;
+    height:var(--height);
+  
+}
+.content .information .information-right .information-right-img{
+    width:var(--width);
+    height:var(--height);
+}
 .footer{
     width:var(--width);
     height:4%;

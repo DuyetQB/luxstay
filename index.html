@@ -20,18 +20,18 @@
                 <svg class="header-left-svg" version="1.1" viewBox="0 0 50 50" ><path pid="0" d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67z"></path></svg>
                 </div>
                 <div class="wrap-search">
-               <input type="text" placeholder="tim kiem" class="search" onfocus="myFocus()">
+               <input type="text" placeholder="tìm kiếm " class="search" onfocus="myFocus()">
                <i class="fas fa-search"></i>
               
            </div>
            <div class="wrap-days">
                <div class="day">
                 <i class="far fa-calendar"></i>
-                <span>Ngày </span>
+                <span data-i18n="header.days">Ngày </span>
                </div>
                <div class="member">
                 <i class="fas fa-user"></i>
-                <span>Số khách </span>
+                <span data-i18n="header.guest number">Số khách </span>
                </div>
                <button class="wrap-days-btn">
                 <i class="fas fa-search"></i>
@@ -42,9 +42,9 @@
             <div class="header-right">
                
                 <ul class="header-right-ul">
-                    <li class="header-right-li">Host</li>
-                    <li class="header-right-li">Đăng kí </li>
-                    <li class="header-right-li">Đăng nhập </li>
+                    <li class="header-right-li"data-i18n="header.host">Host</li>
+                    <li class="header-right-li"data-i18n="header.sign-up">Đăng kí </li>
+                    <li class="header-right-li"data-i18n="header.sign-in">Đăng nhập </li>
                     <li class="header-right-li" id = "icon-language">
                         <img class="header-right-li-img" src="assets/VN's-flag.png" alt="">
                         <span class="header-right-li-span">VND</span>
@@ -52,18 +52,18 @@
                         <section class="section">
                             <li class="section-li">
                                 <img src="assets/VN's-flag.png"  alt="" class="section-li-img">
-                            <span>Tiếng Việt </span>
+                            <span class = "vietnamese">Tiếng Việt </span>
                             </li>
                             <li class="section-li">VND Việt Nam Đồng </li>
                            
                             <li class="section-li">
                                 <img src="assets/flag-of-England2.png" alt="" class="section-li-img">
-                                <span>English</span>
+                                <span class="english">English</span>
                             </li>
                             <li class="section-li">USD United States Dollar</li>
                             <li class="section-li">
                                 <img src="/assets/Flag_of_South_Korea.png" alt="" class="section-li-img">
-                                <span>Korean</span>
+                                <span class="korean">Korean</span>
                             </li>
                             
                           
@@ -214,7 +214,7 @@
                     <img src="https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cm9vbXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelSG-img">
                     <div  class="travel-item-detail">  
                         <h5 class="travel-item-detail-h5">Gần Trung Tâm   </h5>
-                        <p class="travel-item-detail-live">Dễ dàng di chuyển khắp nơi với top chổ ở khu vực trung tam thành phố Hồ Chí Minh </p>
+                        <p class="travel-item-detail-live">Dễ dàng di chuyển khắp nơi với top chổ ở khu vực trung tâm thành phố Hồ Chí Minh </p>
                     </div>
                     </div>
                   <div class=" travelSG-slide"  >
@@ -346,43 +346,43 @@
                           
                     <img src="https://images.unsplash.com/photo-1597218544531-3c10f1d25898?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8aG9tZXN0YXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelHN-img">
                     <div class="travelHN-item-detail">  
-                        <h5 class="travelHN-item-detail-h5">Cho Cặp Đôi   </h5>
-                        <p class="travelHN-item-detail-live">Trải qua kỳ nghỉ lãng mạn đáng nhớ với gợi ý chỗ ở cực đẹp  </p>
+                        <h5 class="travelHN-item-detail-h5">Giá Cực Đã    </h5>
+                        <p class="travelHN-item-detail-live">Top nhà đẹp 'giá yêu'-tất cả dưới 500k/đêm cho bạn thỏa sức lựa chọn.   </p>
                     </div>
                     </div>
                   <div class=" travelHN-slide">
                       <img src="https://images.unsplash.com/photo-1559202541-ce1818fa6684?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZXN0YXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelHN-img">
                       <div class="travelHN-item-detail">  
-                        <h5 class="travelHN-item-detail-h5">Cho Nhóm Bạn   </h5>
-                        <p class="travelHN-item-detail-live">Chỗ ở tiện nghi , rộng rãi cho nhóm bạn và gia đình ở thành phố biển  </p>
+                        <h5 class="travelHN-item-detail-h5">Gần phố cổ !   </h5>
+                        <p class="travelHN-item-detail-live">Khu vực gần trung tâm tiện lợi để di chuyển khắp Hà Nội  </p>
                     </div>
                     </div>
                   <div class="travelHN-slide"> 
                       <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8aG9tZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelHN-img">
                       <div class="travelHN-item-detail">  
-                        <h5 class="travelHN-item-detail-h5">Giá Ưu Đãi   </h5>
-                        <p class="travelHN-item-detail-live">Top homestay có thiết kế đẹp,giá siêu ưu đãi  </p>
+                        <h5 class="travelHN-item-detail-h5">Top Nhà Đẹp   </h5>
+                        <p class="travelHN-item-detail-live">Những căn homestay xinh xắn vạn người mê ở Hà Nội.   </p>
                     </div>
                     </div>
                   <div class="travelHN-slide"id="lastdivHN">
                        <img src="https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelHN-img">
                        <div class="travelHN-item-detail">  
-                        <h5 class="travelHN-item-detail-h5">Gần Bãi Sau   </h5>
-                        <p class="travelHN-item-detail-live">Chỗ ở gần bãi Sau với giá siêu ưu đãi dành tặng bạn   </p>
+                        <h5 class="travelHN-item-detail-h5">Siêu Ưu Đãi!   </h5>
+                        <p class="travelHN-item-detail-live">Top homestay giảm đến 50% từ các chủ nhà trên Luxstay   </p>
                     </div>
                     </div>
                     <div class="travelHN-slide"> 
                         <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelHN-img">
                         <div class="travelHN-item-detail">  
-                            <h5 class="travelHN-item-detail-h5">Gần Bãi Trước   </h5>
-                            <p class="travelHN-item-detail-live">Chỗ ở view biển ,gần bãi Trước với giá ưu đãi dành cho chuyến du lịch hoàn hảo </p>
+                            <h5 class="travelHN-item-detail-h5">Gần Hồ Tây    </h5>
+                            <p class="travelHN-item-detail-live">Chỗ ở xinh xắn view Hồ Tây lộng gió đang có giá tốt . Đừng bỏ lỡ  </p>
                         </div>
                       </div>
                   <div class="travelHN-slide"> 
                       <img src="https://images.unsplash.com/photo-1510563800743-aed236490d08?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8aG9tZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelHN-img">
                       <div class="travelHN-item-detail" >  
-                        <h5 class="travelHN-item-detail-h5">Giá Dưới 1 Triệu   </h5>
-                        <p class="travelHN-item-detail-live">Chỉ từ dưới 1 triệu/đêm cho một chỗ ở lý tưởng trung tâm Vũng Tàu  </p>
+                        <h5 class="travelHN-item-detail-h5">Lãng Mạn Cho Cặp Đôi   </h5>
+                        <p class="travelHN-item-detail-live">Hâm nóng tình cảm với chỗ ở lãng mạn bạn không thể bỏ lỡ  </p>
                     </div>
                     </div>
                   
@@ -407,45 +407,45 @@
                 <div class="travelDL-wrap">
                 <div class="travelDL-slide" id="firstdivDL" > 
                           
-                    <img src="https://images.unsplash.com/photo-1606851449416-cb095ad60ded?ixid=MXwxMjA3fDF8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelDL-img">
+                    <img src="https://images.unsplash.com/photo-1562005094-c724030f99bd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI0fHx2aWV0JTIwbmFtfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelDL-img">
                     <div class="travelDL-item-detail">  
-                        <h5 class="travelDL-item-detail-h5">Cho Cặp Đôi   </h5>
-                        <p class="travelDL-item-detail-live">Trải qua kỳ nghỉ lãng mạn đáng nhớ với gợi ý chỗ ở cực đẹp  </p>
+                        <h5 class="travelDL-item-detail-h5">Nhà Đẹp Giá Tốt    </h5>
+                        <p class="travelDL-item-detail-live">Top chỗ giá hấp dẫn chỉ dưới 100k/đêm cho bạn thỏa thích lựa chọn  </p>
                     </div>
                     </div>
                   <div class=" travelDL-slide">
                       <img src="https://images.unsplash.com/photo-1509660933844-6910e12765a0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelDL-img">
                       <div class="travelDL-item-detail">  
-                        <h5 class="travelDL-item-detail-h5">Cho Nhóm Bạn   </h5>
-                        <p class="travelDL-item-detail-live">Chỗ ở tiện nghi , rộng rãi cho nhóm bạn và gia đình ở thành phố biển  </p>
+                        <h5 class="travelDL-item-detail-h5">Top Homestay Đẹp    </h5>
+                        <p class="travelDL-item-detail-live">Top homestay đẹp lịm tim khắp Đà Lạt cho bạn tha hồ check-in.  </p>
                     </div>
                     </div>
                   <div class="travelDL-slide"> 
                       <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvbWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelDL-img">
                       <div class="travelDL-item-detail">  
-                        <h5 class="travelDL-item-detail-h5">Giá Ưu Đãi   </h5>
-                        <p class="travelDL-item-detail-live">Top homestay có thiết kế đẹp,giá siêu ưu đãi  </p>
+                        <h5 class="travelDL-item-detail-h5">Trung Tâm Đà Lạt    </h5>
+                        <p class="travelDL-item-detail-live">Tiện lợi di chuyển khắp Đà Lạt một cách dễ dàng với các chỗ gần Trung tâm   </p>
                     </div>
                     </div>
                   <div class="travelDL-slide"id="lastdivDL">
-                       <img src="https://images.unsplash.com/photo-1519643225200-94e79e383724?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGhvbWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelDL-img">
+                       <img src="https://images.unsplash.com/photo-1606851449416-cb095ad60ded?ixid=MXwxMjA3fDF8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelDL-img">
                        <div class="travelDL-item-detail">  
-                        <h5 class="travelDL-item-detail-h5">Gần Bãi Sau   </h5>
-                        <p class="travelDL-item-detail-live">Chỗ ở gần bãi Sau với giá siêu ưu đãi dành tặng bạn   </p>
+                        <h5 class="travelDL-item-detail-h5">Biệt Thự Đẹp  </h5>
+                        <p class="travelDL-item-detail-live">Trải nghiệm kì nghỉ lãng mạn chỉ dành cho hai người   </p>
                     </div>
                     </div>
                     <div class="travelDL-slide"> 
                         <img src="https://images.unsplash.com/photo-1532372576444-dda954194ad0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvbWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelDL-img">
                         <div class="travelDL-item-detail">  
-                            <h5 class="travelDL-item-detail-h5">Gần Bãi Trước   </h5>
-                            <p class="travelDL-item-detail-live">Chỗ ở view biển ,gần bãi Trước với giá ưu đãi dành cho chuyến du lịch hoàn hảo </p>
+                            <h5 class="travelDL-item-detail-h5">Cho Nhóm Bạn    </h5>
+                            <p class="travelDL-item-detail-live">Trải qua kì nghỉ đáng nhớ vô cùng gợi ý chỗ ở cho nhóm đong người cực thú vị </p>
                         </div>
                       </div>
                   <div class="travelDL-slide"> 
                       <img src="https://images.unsplash.com/photo-1534889156217-d643df14f14a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fGhvbWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelDL-img">
                       <div class="travelDL-item-detail" >  
                         <h5 class="travelDL-item-detail-h5">Giá Dưới 1 Triệu   </h5>
-                        <p class="travelDL-item-detail-live">Chỉ từ dưới 1 triệu/đêm cho một chỗ ở lý tưởng trung tâm Vũng Tàu  </p>
+                        <p class="travelDL-item-detail-live">Chỉ từ dưới 1 triệu/đêm cho một chỗ ở lý tưởng trung tâm Đà Lạt </p>
                     </div>
                     </div>
                   
@@ -471,45 +471,45 @@
                 <div class="travelVIN-wrap">
                 <div class="travelVIN-slide" id="firstdivVIN" > 
                           
-                    <img src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8aG91c2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelVIN-img">
+                    <img src="https://cdn.luxstay.com/home/apartment/apartment_1_1563969786.png" alt="" class="travelVIN-img">
                     <div class="travelVIN-item-detail">  
-                        <h5 class="travelVIN-item-detail-h5">Cho Cặp Đôi   </h5>
-                        <p class="travelVIN-item-detail-live">Trải qua kỳ nghỉ lãng mạn đáng nhớ với gợi ý chỗ ở cực đẹp  </p>
+                        <h5 class="travelVIN-item-detail-h5">VINHOMES CENTRAL PACK- TP.HCM  </h5>
+                        <p class="travelVIN-item-detail-live">Hòa mình vào nhịp sống sôi động của khu đô thị hiện đại bậc nhất Sài thành   </p>
                     </div>
                     </div>
                   <div class=" travelVIN-slide">
-                      <img src="https://images.unsplash.com/photo-1560026301-88340cf16be7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdXNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelVIN-img">
+                      <img src="https://cdn.luxstay.com/home/apartment/apartment_3_1563970302.png" alt="" class="travelVIN-img">
                       <div class="travelVIN-item-detail">  
-                        <h5 class="travelVIN-item-detail-h5">Cho Nhóm Bạn   </h5>
-                        <p class="travelVIN-item-detail-live">Chỗ ở tiện nghi , rộng rãi cho nhóm bạn và gia đình ở thành phố biển  </p>
+                        <h5 class="travelVIN-item-detail-h5">VINHOMES LANDMARK 81 - TP.HCM    </h5>
+                        <p class="travelVIN-item-detail-live">Chạm tay vào bầu trời và thu về tận mắt toàn cảnh vẻ đẹp Sài Gòn   </p>
                     </div>
                     </div>
                   <div class="travelVIN-slide"> 
-                      <img src="https://images.unsplash.com/photo-1593604340846-4fbe9763a8f3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdXNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelVIN-img">
+                      <img src="https://cdn.luxstay.com/home/apartment/apartment_4_1563970347.png" alt="" class="travelVIN-img">
                       <div class="travelVIN-item-detail">  
-                        <h5 class="travelVIN-item-detail-h5">Giá Ưu Đãi   </h5>
-                        <p class="travelVIN-item-detail-live">Top homestay có thiết kế đẹp,giá siêu ưu đãi  </p>
+                        <h5 class="travelVIN-item-detail-h5">VINHOMES GOLDEN RIVER    </h5>
+                        <p class="travelVIN-item-detail-live">Tan chảy trước một Sài Gòn lãng mạn của những ngọn đèn phố lung linh  </p>
                     </div>
                     </div>
                   <div class="travelVIN-slide"id="lastdivVIN">
-                       <img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdXNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelVIN-img">
+                       <img src="https://cdn.luxstay.com/home/apartment/apartment_5_1563970449.png" alt="" class="travelVIN-img">
                        <div class="travelVIN-item-detail">  
-                        <h5 class="travelVIN-item-detail-h5">Gần Bãi Sau   </h5>
-                        <p class="travelVIN-item-detail-live">Chỗ ở gần bãi Sau với giá siêu ưu đãi dành tặng bạn   </p>
+                        <h5 class="travelVIN-item-detail-h5">VINHOMES TIMES CITY-HÀ NỘI     </h5>
+                        <p class="travelVIN-item-detail-live">Tận hưởng không gian sống lý tưởng trong khu đô thị đáng sống bậc nhất tại  Hà Nội   </p>
                     </div>
                     </div>
                     <div class="travelVIN-slide"> 
-                        <img src="https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdXNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelVIN-img">
+                        <img src="https://cdn.luxstay.com/home/apartment/apartment_6_1563970476.png" alt="" class="travelVIN-img">
                         <div class="travelVIN-item-detail">  
-                            <h5 class="travelVIN-item-detail-h5">Gần Bãi Trước   </h5>
-                            <p class="travelVIN-item-detail-live">Chỗ ở view biển ,gần bãi Trước với giá ưu đãi dành cho chuyến du lịch hoàn hảo </p>
+                            <h5 class="travelVIN-item-detail-h5">VINHOMES METROPOLIS-HÀ NỘI   </h5>
+                            <p class="travelVIN-item-detail-live">Ngỡ ngàng trước một Hà Nội thật khác khi phố đã lên đèn </p>
                         </div>
                       </div>
                   <div class="travelVIN-slide"> 
-                      <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjF8fGhvdXNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="travelVIN-img">
+                      <img src="https://cdn.luxstay.com/home/apartment/apartment_7_1563970510.png" alt="" class="travelVIN-img">
                       <div class="travelVIN-item-detail" >  
-                        <h5 class="travelVIN-item-detail-h5">Giá Dưới 1 Triệu   </h5>
-                        <p class="travelVIN-item-detail-live">Chỉ từ dưới 1 triệu/đêm cho một chỗ ở lý tưởng trung tâm Vũng Tàu  </p>
+                        <h5 class="travelVIN-item-detail-h5">VINHOMES ROYAL CITY-HÀ NỘI    </h5>
+                        <p class="travelVIN-item-detail-live">Lạc giữa trời Âu thu nhỏ giữa lòng Hà Nội   </p>
                     </div>
                     </div>
                   
@@ -639,7 +639,29 @@
               </div>
             </div>
 
+            <div class="information" title = "introduce about luxstay">
+                <div class="information-left">
+                    <div class="information-left-detail">
+                        <svg version="1.1" viewBox="0 0 244 50" class=" information-left-svg"><path pid="0" d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67zm45.839 2.652l-12.45-.05.096-21.789a.957.957 0 00-.965-.945l-.678-.003a.96.96 0 00-.974.939v.047c-.048.095-.05.236-.05.33l-.098 22.636a1.337 1.337 0 001.351 1.326l13.805.056a.958.958 0 00.973-.938l.003-.662a1.037 1.037 0 00-1.013-.946v-.001zm27.64-22.67l-.871-.003c-.563-.003-1.027.42-1.027.937l-.075 15.878c-.014 3.157-3.252 5.735-7.197 5.72-3.943-.014-7.158-2.618-7.144-5.775l.123-15.5.052-.282a.957.957 0 00-.201-.756 1.128 1.128 0 00-.767-.332l-.87-.004c-.513-.002-.924.326-1.028.75a.857.857 0 00-.156.47l-.073 15.69c-.02 4.616 4.47 8.402 9.95 8.424 5.48.022 10.004-3.73 10.025-8.3l.122-15.5.054-.282a.952.952 0 00-.203-.755c-.152-.189-.458-.379-.714-.38zm48.638 11.226c-3.275-1.249-6.696-2.496-6.688-4.393.01-2.42 2.721-4.401 6.05-4.387 3.331.014 6.025 2.017 6.014 4.436l-.002.38a.96.96 0 00.961.953l.675.003a.96.96 0 00.971-.945v-.38c.009-1.66-.709-3.276-2.006-4.515-1.635-1.618-4.092-2.532-6.65-2.494-4.873-.02-8.698 3.047-8.715 6.938.03 3.748 4.416 5.38 8.656 6.962 3.324 1.247 6.795 2.495 6.785 4.487-.01 2.372-3.155 4.399-6.775 4.385-3.668-.016-6.747-2.07-6.737-4.44l.001-.38a.961.961 0 00-.96-.954l-.676-.002a.96.96 0 00-.97.945v.38c-.018 3.843 4.215 6.991 9.38 7.012 5.163.022 9.423-3.092 9.44-6.934-.033-3.796-4.464-5.427-8.754-7.057zM193.66 11.84l-18.844-.076c-.547-.003-.996.42-.999.94l-.002.66c-.002.52.443.946.99.949l8.103.032-.095 21.802c-.003.52.443.947.99.949l.696.002c.546.003.996-.42 1-.94l.095-21.802 8.055.031c.547.003.996-.42.999-.94l.003-.66c.003-.52-.443-.946-.99-.947zm49.264.515c-.144-.33-.481-.52-.867-.52l-.87-.005a.963.963 0 00-.677.28l-.145.14-.147.142-6.609 9.677-6.72-9.734c-.048-.046-.096-.094-.096-.14l-.143-.143a.97.97 0 00-.675-.285l-.774-.003a1.021 1.021 0 00-.872.515 1.03 1.03 0 00.045.988l7.966 11.576-.049 11.307c.006.527.437.95.964.946l.675.002a.957.957 0 00.97-.937l.049-11.308 7.923-11.509c.194-.329.243-.705.052-.989zm-37.898 12.047l3.75-7.994 3.728 8.023-7.478-.03zm15.615 10.954v-.047l-10.5-22.733c-.15-.425-.549-.71-1.102-.807-.603-.049-1.156.231-1.41.703v.046l-10.705 22.697v.047l-.204.471c-.095.283-.06.595.097.849.188.258.483.416.802.428l.854.004c.453.001.806-.282.958-.657l.05-.141 4.314-9.277 9.95.04 4.28 9.31.049.14c.15.38.5.664.952.667l.854.002c.352.002.654-.139.806-.422.152-.281.254-.563.104-.847l-.149-.473zm-86.008-15.15l.817.003a.963.963 0 00.729-.347l4.755-6.218.412-.478a.763.763 0 00.095-.915c-.135-.306-.453-.482-.816-.483l-.863-.004a.929.929 0 00-.868.608l-4.983 6.522a.94.94 0 00-.096.915c.135.22.453.394.816.397h.002zm-6.998 8.45l-.819-.002a.96.96 0 00-.728.347l-4.755 6.207-.413.48a.77.77 0 00-.094.92c.135.309.452.485.816.488l.864.002a.91.91 0 00.82-.478l5.03-6.601a.949.949 0 00.095-.92 1.027 1.027 0 00-.816-.443zm8.019-.453l.148.14 5.55 7.248c.248.284.246.662.095.99-.15.332-.5.519-.9.517l-.896-.004a1.013 1.013 0 01-.697-.286l-.149-.14c-.03-.002-.042-.02-.059-.044a.212.212 0 00-.04-.052l-5.501-7.151a1.005 1.005 0 01-.15-.237l-11.694-15.39-.446-.521c-.248-.285-.246-.662-.096-.993.15-.33.501-.518.9-.516l.897.004a.99.99 0 01.845.428l.15.19 11.992 15.721s.05.048.05.096z"></path></svg>
+                    <h1 class="information-left-h1">TÌM KIẾM CHỖ Ở GIÁ TỐT NHẤT</h1>
+                    <p>Luxstay hiện là nền tảng đặt phòng trực tuyến #1 Việt Nam. Đồng hành cùng chúng tôi, bạn có những chuyến đi mang đầy trải nghiệm. Với Luxstay, việc đặt chỗ ở, biệt thự nghỉ dưỡng, khách sạn, nhà riêng, chung cư... trở nên nhanh chóng, thuận tiện và dễ dàng.</p>
+                    </div>
+                    <div class="information-left-wrap-zip">
+                        <div class="zip-cover-image">
+                            <img src="https://www.luxstay.com/qr-code.png"class="zip-cover-image-img" alt="">
+                        </div>
+                        <div class="zip-wrap-icon">
+                        <img src="https://www.luxstay.com/icons/apple-store.svg" alt="" class="zip-icon">
+                        <img src="https://www.luxstay.com/icons/huawei.svg" alt="" class="zip-icon">
+                        <img src="https://www.luxstay.com/icons/google-play.svg" alt="" class="zip-icon">
+                        </div>
 
+                    </div>
+                </div>
+                <div class="information-right">
+                    <img src="https://www.luxstay.com/home/home-02.png" alt="" class="information-right-img">
+                </div>
+            </div>
         </div>
 
         <footer class="footer"></footer>
@@ -655,5 +677,49 @@
    <script src="slidehn.js"></script>
    <script src="slidedl.js"></script>
    <script src="slidevin.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.11.1/i18next.min.js"></script>
+   <script>
+    $(function() {
+        // Configuration
+        // Add options
+        i18n.init({
+            resGetPath: '/languages/__lng__.json',
+            debug: true,
+            fallbackLng: false,
+            load: 'unspecific'
+        },function () {
+            $('body').i18n();
+        });
+       
+        // Change languages when click
+        // English
+        $('.english').on('click', function () {
+            // Set language
+            $.i18n.setLng('en', function() {
+                $('body').i18n();
+            });
+           
+            
+        });
+        // Vietnam
+
+        $('.vietnamese').on('click', function () {
+            // Set language
+            $.i18n.setLng('vi', function() {
+                $('body').i18n();
+            });
+            
+        });
+        $('.korean').on('click', function () {
+            // Set language
+            $.i18n.setLng('ko', function() {
+                $('body').i18n();
+            });
+            
+        });
+        
+    });
+</script>
 </body>
 </html>
