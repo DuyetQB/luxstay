@@ -6,6 +6,17 @@
         "sign-up" : "Đăng kí ",
       
         "sign-in"   : "Đăng nhập " 
+    },
+    "content":{
+        "wellcome":"Chào mừng đến với Luxstay",
+        "place ":"Những địa điểm nổi bật ",
+        "discount ":"Ưu đãi độc quyền " ,
+        "saigon ":"Vòng vòng phố thị Sài Gòn",
+        "vungtau":"Lượn quanh biển lớn Vũng Tàu",
+        "hanoi":"Loanh quanh thủ đô Hà Nội",
+        "dalat":"Lang thang Đà Lạt hoa gió",
+        "explore":"Gợi ý khám phá",
+        "use":"Hướng dẫn sử dụng"
     }
 
 }

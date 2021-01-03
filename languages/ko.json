@@ -6,5 +6,16 @@
         "sign-up" : "가입하기",
         "sign-in"   : "로그인"
         
+    },
+    "content":{
+        "wellcome":"Luxstay에 오신 것을 환영합니다",
+        "place ":"주요 위치 ",
+        "discount ":"독점 제공 " ,
+        "saigon ":"사이공 주변",
+        "vungtau":"붕따우의 큰 바다를 산책",
+        "hanoi":"수도 하노이 주변",
+        "dalat":"방황하는 달랏",
+        "explore":"발견을위한 힌트",
+        "use":"사용자 매뉴얼"
     }
 }
