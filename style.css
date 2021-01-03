@@ -1322,7 +1322,7 @@ margin-right: 135px;
 }
 .content .contact{
 height:560px;
-border: 1px solid #000;
+
 display:var(--display);
 }
 .content .contact .contact-item{
