@@ -21,7 +21,7 @@ background-color:rgb(0, 255, 191);
 }
 .container{
     width:var(--width);
-    height:6000px;
+    height:5900px;
     position: relative;
 }
 .container .input-overlay{
@@ -40,7 +40,7 @@ background-color:rgb(0, 255, 191);
     display: var(--display);
     width:var(--width);
     height:80px;
-    border: 1px solid rgb(235, 231, 231);
+    border-bottom: 1px solid rgb(235, 231, 231);
     z-index: 50;
 }
 .container .header .header-left
@@ -308,9 +308,9 @@ font-weight: bold;
 }
 .content{
     width:var(--width);
-    height:95%;
+    height:96%;
     padding:44px ;
-    
+  
    
 }
 
@@ -539,7 +539,7 @@ margin-bottom: 20px;
 .content .travelSG .travelSG-wrap{
     display:var(--display);
     justify-content: space-evenly;
-    width: 200%;
+    width: 198%;
 }
 .content .travelSG .travelSG-wrap .travelSG-slide{
     width:310px;
@@ -1184,7 +1184,7 @@ left:0px;
 }
 .content .travelUSE .travelUSE-slider-container .travelUSE-wrap{
   display:var(--display);
-  width:180%;
+  width:182%;
   justify-content: space-evenly;
 
 
@@ -1320,8 +1320,104 @@ margin-right: 135px;
     width:var(--width);
     height:var(--height);
 }
+.content .contact{
+height:560px;
+border: 1px solid #000;
+display:var(--display);
+}
+.content .contact .contact-item{
+
+width:20%;
+height:var(--height);
+margin-top: 60px;
+}
+.content .contact .contact-item .contact-item-widget-h3{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.content .contact .contact-item .contact-widget-wrap-title{
+    height:300px;
+   
+}
+.content .contact .contact-item .contact-widget-wrap-title .contact-widget-text{
+    
+  margin-top: 20px;
+}
+.content .contact .contact-item .contact-widget-wrap-title .contact-widget-text .widget-text-container{
+  display: var(--display);
+}
+.content .contact .contact-item .contact-widget-wrap-title .contact-widget-text .widget-text-container + .widget-text-container{
+    margin-top: 20px;
+}
+.content .contact .contact-item .contact-widget-wrap-title .contact-widget-text .widget-text-container .widget-text-wrap-item-content{
+  display: var(--display);
+  flex-direction: column;
+  margin-left: 10px;
+}
+.content .contact .contact-item .contact-widget-wrap-title .contact-widget-text .widget-text-container .widget-text-wrap-item-content p{
+    font-weight: bold;
+}
+.content .contact .contact-item .contact-widget-wrap-title .contact-widget-text .widget-text-container .widget-text-wrap-item-content a{
+    color:#000;
+    text-decoration: none;
+}
+.content .contact .contact-item .contact-widget-wrap-title .contact-widget-text .widget-text-container .widget-text-wrap-item-content a:hover{
+    color:var(--textColor);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.content .contact .contact-item .contact-item-widget-ul{
+    list-style-type: none;
+}
+.content .contact .contact-item .contact-item-widget-ul .contact-item-widget-li{
+    line-height: 35px;
+    font-size: 15px;
+}
+.content .contact .contact-item .contact-item-widget-ul .contact-item-widget-li a{
+    color:#000;
+    text-decoration: none;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.content .contact .contact-item .contact-item-widget-ul .contact-item-widget-li a:hover{
+    color:var(--textColor);
+
+}
+.content .contact .contact-item .widget-wrap-zip{
+    width: 70px;
+    height:70px;
+    border: 1px solid rgb(204, 203, 203);
+    text-align: center;
+    margin-top: 5px;
+ 
+}
+.content .contact .contact-item .widget-wrap-zip .widget-wrap-zip-img{
+    width:50px;
+    height:50px;
+    margin-top: 10px;
+    
+}
+.content .contact .contact-item .widget-container-apps{
+display: var(--display);
+}
+.content .contact .contact-item .widget-container-apps .widget-wrap-images{
+    display: var(--display);
+    flex-direction: column;
+    margin-left: 30px;
+}
+.content .contact .contact-item .widget-container-apps .widget-wrap-images img{
+width:90px;
+height:40px;
+}
 .footer{
     width:var(--width);
-    height:4%;
-    background: rgb(173, 154, 154);
+    height:3%;
+    background: rgb(189, 181, 181);
 }
