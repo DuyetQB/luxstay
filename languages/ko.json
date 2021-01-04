@@ -17,5 +17,22 @@
         "dalat":"방황하는 달랏",
         "explore":"발견을위한 힌트",
         "use":"사용자 매뉴얼"
+    },
+    "title":{
+        "title-wellcome":"Luxstay에서 숙박, 홈스테이, 렌터카, 체험 등을 예약하세요",
+        "title-sign-in":"로그인",
+        "title-or":"또는",
+        "title-sign-up":"기재",
+        "title-experience":"경험하다",
+        "title-place":"Luxstay와 함께 세계를 정복하세요",
+        "title-discount":"매력적이고 한정된 Luxstay에서만 지금 예약하세요!",
+        "title-saigon":"여행 및 출장을위한 호치민시 최고의 깨끗하고 저렴한 숙박 시설입니다.",
+        "title-vungtau":"아름다운 해안 도시 붕따우에서 친구 나 친척과 바람을 바꾸세요",
+        "title-hanoi":"초특가 특가로 하노이 거리의 구석 구석을 탐험하세요.",
+        "title-dalat":"사랑하는 사람들과 함께 달랏에 가서 처음과 똑같은 느낌을 그대로 느끼십시오.",
+        "title-vinhomes":"베트남 최고의 도시 브랜드에서 멋진 생활 공간을 즐기십시오",
+        "title-explore":"각 여행을 감동적인 여행으로 만들고 각 방은 평화로운 공간입니다.",
+        "title-use":"빠른 예약, 간단한 결제, 사용하기 쉬운",
+        "title-watch-more":"더보기 "
     }
 }

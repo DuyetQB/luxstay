@@ -338,6 +338,13 @@ margin-top: 30px;
 }
 .content .content-item-second .second-text-welcome a{
     color:#000;
+   
+}
+.content .content-item-second .second-text-welcome .wellcome-sign-in{
+    padding-right: 5px;
+}
+.content .content-item-second .second-text-welcome .wellcome-sign-up{
+    padding: 5px;
 }
 .content .content-item-second .second-images-wellcome{
 height:60%;
