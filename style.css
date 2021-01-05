@@ -589,7 +589,7 @@ left:0px;
 
 width:180%;
 display: var(--display);
-justify-content: space-around;
+justify-content: space-evenly;
 
 }
 
@@ -634,12 +634,17 @@ justify-content: space-between;
     display: var(--display);
    
     overflow: hidden;
+   
 }
-.content .discount .discount-images .discount-images-img{
+.content .discount .discount-images .discount-wrap{
+    justify-content: center;
+    align-items: center;
+}
+.content .discount .discount-images .discount-wrap .discount-images-img{
     width:380px;
     height:181px;
     object-fit: contain;
-    justify-content: center;
+ 
 }
 
 

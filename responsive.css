@@ -1,4 +1,7 @@
 @media only screen and (max-width:739px){
+    .container .fake-nav .fake-nav-child .close{
+        right: 60px;
+    }
     .container{
         height:6500px
     }
