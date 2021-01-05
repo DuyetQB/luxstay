@@ -3,9 +3,9 @@ var slideEXPLORE = document.querySelectorAll(".travelEXPLORE-slide");
 var prevEXPLORE = document.querySelector("#prevEXPLORE");
 var nextEXPLORE = document.querySelector("#nextEXPLORE");
 
-var counterEXPLORE = 1;
+var counterEXPLORE = 0;
 var sizeEXPLORE = slideEXPLORE[0].clientWidth;
-
+prevEXPLORE.disabled = true;
 
 containerEXPLORE.style.transform = 'translateX(' + (-sizeEXPLORE * counterEXPLORE) + 'px)';
 

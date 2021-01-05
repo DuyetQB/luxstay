@@ -3,9 +3,9 @@ var slideDL = document.querySelectorAll(".travelDL-slide");
 var prevDL = document.querySelector("#prevDL");
 var nextDL = document.querySelector("#nextDL");
 
-var counterDL = 1;
+var counterDL = 0;
 var sizeDL = slideDL[0].clientWidth;
-
+prevDL.disabled = true;
 
 containerDL.style.transform = 'translateX(' + (-sizeDL * counterDL) + 'px)';
 

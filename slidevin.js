@@ -3,9 +3,9 @@ var slideVIN = document.querySelectorAll(".travelVIN-slide");
 var prevVIN = document.querySelector("#prevVIN");
 var nextVIN = document.querySelector("#nextVIN");
 
-var counterVIN = 1;
+var counterVIN = 0;
 var sizeVIN = slideVIN[0].clientWidth;
-
+prevVIN.disabled = true;
 
 containerVIN.style.transform = 'translateX(' + (-sizeVIN * counterVIN) + 'px)';
 

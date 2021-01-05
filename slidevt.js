@@ -3,9 +3,9 @@ var slideVT = document.querySelectorAll(".travelVT-slide");
 var prevVT = document.querySelector("#prevVT");
 var nextVT = document.querySelector("#nextVT");
 
-var counterVT = 1;
+var counterVT = 0;
 var sizeVT = slideVT[0].clientWidth;
-
+prevVT.disabled = true;
 
 containerVT.style.transform = 'translateX(' + (-sizeVT * counterVT) + 'px)';
 

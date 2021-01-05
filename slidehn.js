@@ -3,9 +3,9 @@ var slideHN = document.querySelectorAll(".travelHN-slide");
 var prevHN = document.querySelector("#prevHN");
 var nextHN = document.querySelector("#nextHN");
 
-var counterHN = 1;
+var counterHN = 0;
 var sizeHN = slideHN[0].clientWidth;
-
+prevHN.disabled = true;
 
 containerHN.style.transform = 'translateX(' + (-sizeHN * counterHN) + 'px)';
 

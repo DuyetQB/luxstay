@@ -86,6 +86,7 @@ display: none;
     }
     .content .great-places .places-container {
         overflow-x: scroll;
+     
     }
     .content .great-places .places-container .places-wrap-slider .places-slide{
         width:100%; 

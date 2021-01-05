@@ -3,9 +3,9 @@ let slide = document.querySelectorAll(".places-slide");
 let prev = document.querySelector("#prev");
 let next = document.querySelector("#next");
 
-let counter  = 1;
+let counter  = 0;
 let size = slide[0].clientWidth;
-
+prev.disabled = true;
 
 wrapSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 

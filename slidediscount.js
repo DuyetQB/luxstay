@@ -6,10 +6,10 @@ var slideDis = document.querySelectorAll(".discount-images-img");
 var prevDis = document.querySelector("#prevDis");
 var nextDis = document.querySelector("#nextDis");
 
-var counterDis = 1;
+var counterDis = 0;
 var sizeDis = slideDis[0].clientWidth;
 
-
+prevDis.disabled = true;
 containerDis.style.transform = 'translateX(' + (-sizeDis * counterDis) + 'px)';
 
     nextDis.addEventListener("click" , () =>{

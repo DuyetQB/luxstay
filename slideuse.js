@@ -3,9 +3,9 @@ var slideUSE = document.querySelectorAll(".travelUSE-slide");
 var prevUSE = document.querySelector("#prevUSE");
 var nextUSE = document.querySelector("#nextUSE");
 
-var counterUSE = 1;
+var counterUSE = 0;
 var sizeUSE = slideUSE[0].clientWidth;
-
+prevUSE.disabled = true;
 
 containerUSE.style.transform = 'translateX(' + (-sizeUSE * counterUSE) + 'px)';
 

@@ -3,9 +3,9 @@ let slideSG = document.querySelectorAll(".travelSG-slide");
 let prevSG = document.querySelector("#prevSG");
 let nextSG = document.querySelector("#nextSG");
 
-let counterSG  = 1;
+let counterSG  = 0;
 let sizeSG = slideSG[0].clientWidth;
-
+prevSG.disabled = true;
 
 containerSG.style.transform = 'translateX(' + (-sizeSG * counterSG) + 'px)';
 
