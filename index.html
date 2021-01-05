@@ -14,6 +14,44 @@
 </head>
 <body>
     <div class="container">
+        <div class="fake-nav">
+            <div class="fake-nav-child">
+                <div class="close">&times</div>
+                <ul class="fake-nav-ul">
+                    <li class="fake-nav-li">Host<a href=""></a></li>
+                    <li class="fake-nav-li">Đăng kí <a href=""></a></li>
+                    <li class="fake-nav-li">Đăng nhập <a href=""></a></li>
+                    <li class="fake-nav-li" id="fake-icon-language">
+                        <img class="fake-nav-li-img" src="assets/VN's-flag.png" alt="">
+                        <span class="fake-nav-li-span">VND</span>
+                        <i class="fas fa-caret-down"></i>
+                        <section class="fake-nav-section">
+                            <li class="fake-nav-section-li ">
+                                <img src="assets/VN's-flag.png"  alt="" class="fake-nav-section-li-img">
+                            <span id = "fake-nav-vietnamese">Tiếng Việt </span>
+                            </li>
+                         
+                           
+                            <li class="fake-nav-section-li ">
+                                <img src="assets/flag-of-England2.png" alt="" class="fake-nav-section-li-img">
+                                <span id="fake-nav-english">English</span>
+                            </li>
+                           
+                            <li class="fake-nav-section-li">
+                                <img src="/assets/Flag_of_South_Korea.png" alt="" class="fake-nav-section-li-img">
+                                <span id="fake-nav-korean">Korean</span>
+                            </li>
+                            <li class="fake-nav-section-li">VND Việt Nam Đồng </li>
+                            <li class="fake-nav-section-li">USD United States Dollar</li>
+                            
+                          
+                            
+                           
+                        </section>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <header class="header">
             <div class="header-left">
                 <div class="header-left-wrap-svg">
@@ -73,6 +111,9 @@
                     </li>
                    
                 </ul>
+                <div class="small-hamburgor">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </header>
         <div class="content">
@@ -86,6 +127,7 @@
                     <a href="" data-i18n="title.title-sign-in" class="wellcome-sign-in"> Đăng nhập </a><span data-i18n="title.title-or">hoặc </span><a href=""data-i18n="title.title-sign-up" class="wellcome-sign-up">Đăng kí </a><span data-i18n="title.title-experience">để trải nghiệm </span>
                 </div>
                 <div class="second-images-wellcome">
+                    <div class="second-images-wrap">
                     <div class="item-images">
                         <img class="small-image-wellcome" src="https://images.unsplash.com/photo-1608665507031-1a70670eafe5?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
                     <h3 class="item-images-h3">Homestay</h3>
@@ -106,7 +148,7 @@
                         <h3 class="item-images-h3">Đưa đón sân bay </h3>
                         <p  class="item-images-p">Xe sang chỉ từ 199.000đ </p>
                     </div>
-                   
+                   </div>
                 </div>
             </div>
             <div class="great-places">
@@ -147,7 +189,7 @@
                             <p class="places-images-item-detail-live">3020 chỗ </p>
                         </div>
                         </div>
-                        <div class="places-slide"  id="lastdiv" > 
+                        <div class="places-slide" id="lastdiv" > 
                             <img src="https://cdn.luxstay.com/home/location/location_16_1559303173.png" alt="" class="places-images-img">
                             <div  class="places-images-item-detail">  
                               <h2 class="places-images-item-detail-h2">Đà Nẵng  </h2>
@@ -197,10 +239,15 @@
                    
                 </div>
                 <div class="discount-images">
-                    <img src="/assets/luxstay-discount1.png" alt="" class="discount-images-img">
-                    <img src="/assets/luxstay-discount2.png" alt="" class="discount-images-img">
-                    <img src="/assets/luxstay-discount4.png" alt="" class="discount-images-img">
+                    <div class="discount-wrap">
+                    <img src="/assets/luxstay-discount1.png" alt="" class="discount-images-img" id="firstdivDis">
+                    <img src="/assets/luxstay-discount2.png" alt="" class="discount-images-img"id="lastdivDis">
+                    <img src="/assets/luxstay-discount4.png" alt="" class="discount-images-img" >
                 </div>
+                
+                </div>
+                <button  id="nextDis" >&#10095</button>
+                <button id="prevDis">&#10094</button>
             </div>
             <div class="travelSG">
                 <div class="travelSG-detail">
@@ -798,6 +845,7 @@
     <script src="slide.js"></script>
     <script src="slidesg.js"></script>
     <script src="slidevt.js"></script>
+    <script src="slidediscount.js"></script>
    <script src="slideexplore.js"></script>
    <script src="slideuse.js"></script>
    <script src="slidehn.js"></script>
@@ -839,6 +887,34 @@
         });
         //korean 
         $('.korean').on('click', function () {
+            // Set language
+            $.i18n.setLng('ko', function() {
+                $('body').i18n();
+            });
+            
+        });
+
+        //small fake nav vietnamse
+        $('#fake-nav-vietnamese').on('click', function () {
+            // Set language
+            $.i18n.setLng('vi', function() {
+                $('body').i18n();
+            });
+            
+        });
+
+        //small fake nav english
+        $('#fake-nav-english').on('click', function () {
+            // Set language
+            $.i18n.setLng('en', function() {
+                $('body').i18n();
+            });
+            
+        });
+
+
+        //small fake nav koren
+        $('#fake-nav-korean').on('click', function () {
             // Set language
             $.i18n.setLng('ko', function() {
                 $('body').i18n();

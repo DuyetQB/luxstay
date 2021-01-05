@@ -23,6 +23,7 @@ background-color:rgb(0, 255, 191);
     width:var(--width);
     height:5900px;
     position: relative;
+    overflow: hidden;
 }
 .container .input-overlay{
     width:var(--width);
@@ -42,6 +43,113 @@ background-color:rgb(0, 255, 191);
     height:80px;
     border-bottom: 1px solid rgb(235, 231, 231);
     z-index: 50;
+    position: relative;
+}
+.container .fake-nav{
+    display: none;
+    width:100vw;
+    height:100vh;
+    background: rgba(0 ,0,0,0.3);
+    z-index: 100;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+
+}
+.container .fake-nav .fake-nav-child{
+    width:400px;
+    height:370px;
+    background: #fff;
+z-index: 200;
+position: absolute;
+
+}
+.container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li{
+    line-height: 40px;
+    font-size: 32px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(3){
+padding-bottom: 20px;
+}
+.container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4){
+    border: 1px solid rgb(175, 174, 174);
+    width:200px;
+    height:70px;
+    position: relative;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    line-height: 20px;
+}
+.container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fake-nav-li-img{
+    width: 30px;
+    height:30px;
+}
+.container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fake-nav-section{
+    position: absolute;
+    width:400px;
+    height:470px;
+    
+    background: #fff;
+    top:90px;
+    padding-left: 10px;
+    list-style-type: none;
+    padding-top: 10px;
+    left: 0px;
+    display: none;
+}
+.container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fake-nav-section .fake-nav-section-li{
+    line-height: 60px;
+    font-size: 25px;
+   
+    margin: 5px;
+}
+.container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    background: var(--textColor);
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fake-nav-section .fake-nav-section-li-img{
+    width:40px;
+    height:40px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.container .fake-nav .fake-nav-child .close{
+    position: absolute;
+    right:20px;
+    font-size: 50px;
+
+}
+.container .small-hamburgor{
+    width:60px;
+    height:40px;
+   
+    text-align: center;
+    display: none;
+    position: absolute;
+    left:30%;
+    top:20px;
+    font-size: 28px;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    z-index: 60;
+    background: #fff;
 }
 .container .header .header-left
 
@@ -55,6 +163,7 @@ display: var(--display);
     width:40%;
     height:var(--height);
 display: var(--display);
+position: relative;
 }
 .container .header .header-left .header-left-wrap-svg{
    margin-top: 4px ;
@@ -322,6 +431,7 @@ font-weight: bold;
 .content .content-item-first .first-content-img{
 width:var(--width);
 height: var(--height);
+object-fit: fill;
 
 }
 
@@ -353,7 +463,10 @@ width:var(--width);
 
 
 }
-.content .content-item-second .second-images-wellcome .item-images{
+.content .content-item-second .second-images-wellcome .second-images-wrap{
+    display:var(--display);
+}
+.content .content-item-second .second-images-wellcome .second-images-wrap .item-images{
     height:190px;
    
     width:200px;
@@ -465,7 +578,7 @@ left:0px;
    
   }
   
-.content .great-places .places-slide{
+.content .great-places .places-container .places-wrap-slider .places-slide{
     width:240px ;
     height:300px ;
     position: relative;
@@ -480,7 +593,7 @@ justify-content: space-around;
 
 }
 
-.content .great-places .places-wrap-slider .places-images-img{
+.content .great-places .places-container .places-wrap-slider .places-images-img{
      width:var(--width);
      height:var(--height);
      object-fit: cover;
@@ -500,6 +613,7 @@ justify-content: space-around;
 .content .discount{
     width:var(--width);
     height:300px;
+    position: relative;
    
 }
 .content .discount .discount-detail{
@@ -518,13 +632,59 @@ justify-content: space-between;
 
 .content .discount .discount-images{
     display: var(--display);
-    justify-content: space-evenly;
+   
+    overflow: hidden;
 }
 .content .discount .discount-images .discount-images-img{
     width:380px;
     height:181px;
     object-fit: contain;
+    justify-content: center;
 }
+
+
+
+.content .discount #nextDis,#prevDis{
+    display: none;
+    width:50px ;
+    height:50px ;
+    background: rgba(235, 235, 235, 0.9) ;
+    color:#000 ;
+    font-size: 16px ;
+    position: absolute ;
+    cursor: pointer ;
+    top:40%;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    outline: none;
+    border:none;
+    z-index: 4 ;
+    user-select: none;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 0 6px #333;
+    transition: all 0.4s  ;
+    -webkit-transition: all 0.4s  ;
+    -moz-transition: all 0.4s  ;
+    -ms-transition: all 0.4s  ;
+    -o-transition: all 0.4s  ;
+  }
+  .content .discount #nextDis:hover,#prevDis:hover{
+      color:var(--textColor);
+      box-shadow:  0 0 3px var(--textColor);
+      
+  
+  }
+  .content .discount #nextDis{
+  right:0px;
+  
+  }
+  .content .discount #prevDis{
+  left:0px;
+  }
 .content .travelSG{
   
     height:400px;
@@ -543,26 +703,26 @@ justify-content: space-between;
 .content .travelSG .travelSG-detail{
 margin-bottom: 20px;
 }
-.content .travelSG .travelSG-wrap{
+.content .travelSG .travel-slider-container .travelSG-wrap{
     display:var(--display);
     justify-content: space-evenly;
     width: 198%;
 }
-.content .travelSG .travelSG-wrap .travelSG-slide{
+.content .travelSG .travel-slider-container .travelSG-wrap .travelSG-slide{
     width:310px;
     height:300px;
     position: relative;
   
 }
-.content .travelSG .travelSG-wrap .travelSG-slide .travel-item-detail{
-position: absolute;
-bottom:10px;
+.content .travelSG .travel-slider-container .travelSG-wrap .travelSG-slide .travel-item-detail{
+margin-top: 10px;
 }
-.content .travelSG .travelSG-wrap .travelSG-slide .travel-item-detail .travel-item-detail-h5{
+.content .travelSG .travel-slider-container .travelSG-wrap .travelSG-slide .travel-item-detail .travel-item-detail-h5{
     text-transform: uppercase;
     color:gray;
+    
 }
-.content .travelSG .travelSG-wrap .travelSG-slide .travel-item-detail .travel-item-detail-live:hover{
+.content .travelSG .travel-slider-container .travelSG-wrap .travelSG-slide .travel-item-detail .travel-item-detail-live:hover{
     color:var(--textColor);
     cursor: pointer;
     transition: all 0.3s;
@@ -571,7 +731,7 @@ bottom:10px;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
- .content .travelSG .travelSG-wrap .travelSG-slide .travelSG-img{
+ .content .travelSG .travel-slider-container .travelSG-wrap .travelSG-slide .travelSG-img{
      width:var(--width);
      height: 190px;
      object-fit: cover;
@@ -647,17 +807,16 @@ bottom:10px;
 
 }
 
-  .content .travelVT .travelVT-slider-container .travelVT-slide .travelVT-item-detail{
-      position: absolute;
-      bottom: 10px ;
+  .content .travelVT .travelVT-slider-container .travelVT-wrap .travelVT-slide .travelVT-item-detail{
+     margin-top: 10px;
      
   }
-  .content .travelVT .travelVT-slider-container .travelVT-slide .travelVT-item-detail .travelVT-item-detail-h5{
+  .content .travelVT .travelVT-slider-container .travelVT-wrap .travelVT-slide .travelVT-item-detail .travelVT-item-detail-h5{
       color:gray;
       text-transform: uppercase;
   }
   
-  .content .travelVT .travelVT-slider-container .travelVT-slide .travelVT-item-detail .travelVT-item-detail-live:hover{
+  .content .travelVT .travelVT-slider-container .travelVT-wrap .travelVT-slide .travelVT-item-detail .travelVT-item-detail-live:hover{
       color:var(--textColor);
       cursor: pointer;
       transition: all 0.3s;
@@ -666,14 +825,14 @@ bottom:10px;
       -ms-transition: all 0.3s;
       -o-transition: all 0.3s;
 }
-  .content .travelVT .travelVT-slider-container .travelVT-slide{
+  .content .travelVT .travelVT-slider-container .travelVT-wrap .travelVT-slide{
       width: 310px;
       height:300px;
       position: relative;
 
   }
 
-  .content .travelVT .travelVT-slider-container .travelVT-slide .travelVT-img{
+  .content .travelVT .travelVT-slider-container .travelVT-wrap .travelVT-slide .travelVT-img{
     width:var(--width);
     object-fit: cover;
     height:190px;
@@ -757,17 +916,16 @@ bottom:10px;
 
 }
 
-.content .travelHN .travelHN-slider-container .travelHN-slide .travelHN-item-detail{
-    position: absolute;
-    bottom: 10px ;
+.content .travelHN .travelHN-slider-container .travelHN-wrap .travelHN-slide .travelHN-item-detail{
+   margin-top: 10px;
    
 }
-.content .travelHN .travelHN-slider-container .travelHN-slide .travelHN-item-detail .travelHN-item-detail-h5{
+.content .travelHN .travelHN-slider-container .travelHN-wrap .travelHN-slide .travelHN-item-detail .travelHN-item-detail-h5{
     color:gray;
     text-transform: uppercase;
 }
 
-.content .travelHN .travelHN-slider-container .travelHN-slide .travelHN-item-detail .travelHN-item-detail-live:hover{
+.content .travelHN .travelHN-slider-container .travelHN-wrap .travelHN-slide .travelHN-item-detail .travelHN-item-detail-live:hover{
     color:var(--textColor);
     cursor: pointer;
     transition: all 0.3s;
@@ -776,14 +934,14 @@ bottom:10px;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
-.content .travelHN .travelHN-slider-container .travelHN-slide{
+.content .travelHN .travelHN-slider-container .travelHN-wrap .travelHN-slide{
     width: 310px;
     height:300px;
     position: relative;
 
 }
 
-.content .travelHN .travelHN-slider-container .travelHN-slide .travelHN-img{
+.content .travelHN .travelHN-slider-container .travelHN-wrap .travelHN-slide .travelHN-img{
   width:var(--width);
   object-fit: cover;
   height:190px;
@@ -871,9 +1029,8 @@ margin-bottom: 20px;
     position: relative;
   
 }
-.content .travelDL .travelDL-wrap .travelDL-slide .travelDL-item-detail{
-position: absolute;
-bottom:10px;
+.content .travelDL .travelDL-slider-container .travelDL-wrap .travelDL-slide .travelDL-item-detail{
+margin-top: 10px;
 }
 .content .travelDL .travelDL-slider-container .travelDL-wrap .travelDL-slide .travelDL-item-detail .travelDL-item-detail-h5{
     text-transform: uppercase;
@@ -966,17 +1123,16 @@ bottom:10px;
 
 }
 
-.content .travelVIN .travelVIN-slider-container .travelVIN-slide .travelVIN-item-detail{
-    position: absolute;
-    bottom: 10px ;
+.content .travelVIN .travelVIN-slider-container .travelVIN-wrap .travelVIN-slide .travelVIN-item-detail{
+    margin-top: 10px;
    
 }
-.content .travelVIN .travelVIN-slider-container .travelVIN-slide .travelVIN-item-detail .travelVIN-item-detail-h5{
+.content .travelVIN .travelVIN-slider-container .travelVIN-wrap .travelVIN-slide .travelVIN-item-detail .travelVIN-item-detail-h5{
     color:gray;
     text-transform: uppercase;
 }
 
-.content .travelVIN .travelVIN-slider-container .travelVIN-slide .travelVIN-item-detail .travelVIN-item-detail-live:hover{
+.content .travelVIN .travelVIN-slider-container .travelVIN-wrap .travelVIN-slide .travelVIN-item-detail .travelVIN-item-detail-live:hover{
     color:var(--textColor);
     cursor: pointer;
     transition: all 0.3s;
@@ -985,14 +1141,14 @@ bottom:10px;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
-.content .travelVIN .travelVIN-slider-container .travelVIN-slide{
+.content .travelVIN .travelVIN-slider-container .travelVIN-wrap .travelVIN-slide{
     width: 310px;
     height:300px;
     position: relative;
 
 }
 
-.content .travelVIN .travelVIN-slider-container .travelVIN-slide .travelVIN-img{
+.content .travelVIN .travelVIN-slider-container .travelVIN-wrap .travelVIN-slide .travelVIN-img{
   width:var(--width);
   object-fit: cover;
   height:190px;

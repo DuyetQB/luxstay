@@ -1,11 +1,29 @@
 
+window.onscroll = function(){ myscroll()};
+function myscroll(){
+let header = document.querySelector(".header");
+let sticky = header.offsetTop;
+
+if(window.pageYOffset >= 40 ){
+    header.classList.add("sticky");
+}
+    else{
+    header.classList.remove("sticky");
+}
+}
+
+
+
+
 document.addEventListener("DOMContentLoaded", function(){
+
 
     let nav = document.querySelector(".section");
 
     let icon = document.querySelector("#icon-language");
 
     let current = "click1";
+
 
     icon.onclick = function(){
         if(current == "click1"){
@@ -20,7 +38,66 @@ document.addEventListener("DOMContentLoaded", function(){
             current = "click1";
         }
     }
-},false)
+},false);
+// hide and show the flag
+
+//hiden and show fake navigation when click
+
+document.addEventListener("DOMContentLoaded", function(){
+    let hamburgor = document.querySelector(".small-hamburgor");
+    let closeNavigation = document.querySelector(".close");
+    let fakeNavigation  = document.querySelector(".fake-nav");
+    let number = "pick1"; //chỗ này mình tái sử dụng lại code luôn thay vì code 2 cái chức năng ẩn hiện 
+    //2 chỗ .Mình bỏ cái icon hamburgor khi responsive vào đây 
+    
+       
+        
+    hamburgor.onclick = function(){
+       
+            fakeNavigation.style.display = "block";
+           
+        }
+        closeNavigation.onclick = function(){
+            fakeNavigation.style.display = "none";
+        }
+
+          window.onclick = function(e){
+            
+            if(e.target == fakeNavigation){
+            fakeNavigation.style.display = "none";
+            }
+        }
+    
+    }
+,false);
+
+
+//function hide and show small navigation when we resize the screen smaller
+document.addEventListener("DOMContentLoaded", function(){
+
+
+    let fakeSection = document.querySelector(".fake-nav-section");
+
+    let  fakeicon = document.querySelector("#fake-icon-language");
+
+    let numSection = "like1";
+
+
+    fakeicon.onclick = function(){
+        if( numSection == "like1"){
+
+            fakeSection.style.display = "block";
+        
+            numSection = "like2";
+        }
+        else if( numSection == "like2"){
+          
+            fakeSection.style.display = "none";
+           
+            numSection = "like1";
+        }
+    }
+},false);
 
 
 function myFocus(){
@@ -42,5 +119,8 @@ inputOverlay.onclick = function(){
 }
 }
 //input checked
+
+
+
 
 
