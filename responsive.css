@@ -13,6 +13,7 @@
     }
     .container .small-hamburgor{
         display: block;
+        left:10%;
     }
     .container .header .header-left{
         width:80%;
@@ -21,8 +22,33 @@
         width: 20%;
     }
     .container .header .header-left .header-left-wrap-svg{
-        margin-left: 20px;
+        margin-left: 10px;
         width: 93px;
+    }
+    .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li{
+        font-size: 20px;
+       
+    }
+    .container .fake-nav .fake-nav-child .fake-nav-ul #fake-icon-language{
+        line-height: 20px;
+    }
+    .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4){
+       
+     font-size: 20px;
+   
+    
+    }
+    .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fake-nav-section{
+        top:50px;
+       
+    }
+    .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fake-nav-section .fake-nav-section-li{
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fake-nav-section .fake-nav-section-li-img{
+        width:20px;
+        height:20px;
     }
     .container .header .header-left .wrap-search{
         width: 300px;

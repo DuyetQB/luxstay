@@ -6,6 +6,7 @@ var nextUSE = document.querySelector("#nextUSE");
 var counterUSE = 0;
 var sizeUSE = slideUSE[0].clientWidth;
 prevUSE.disabled = true;
+prevUSE.style.opacity = "0.4";
 
 containerUSE.style.transform = 'translateX(' + (-sizeUSE * counterUSE) + 'px)';
 

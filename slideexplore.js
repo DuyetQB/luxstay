@@ -6,6 +6,7 @@ var nextEXPLORE = document.querySelector("#nextEXPLORE");
 var counterEXPLORE = 0;
 var sizeEXPLORE = slideEXPLORE[0].clientWidth;
 prevEXPLORE.disabled = true;
+prevEXPLORE.style.opacity = "0.4";
 
 containerEXPLORE.style.transform = 'translateX(' + (-sizeEXPLORE * counterEXPLORE) + 'px)';
 

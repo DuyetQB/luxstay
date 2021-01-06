@@ -6,7 +6,7 @@ var nextHN = document.querySelector("#nextHN");
 var counterHN = 0;
 var sizeHN = slideHN[0].clientWidth;
 prevHN.disabled = true;
-
+prevHN.style.opacity = "0.4";
 containerHN.style.transform = 'translateX(' + (-sizeHN * counterHN) + 'px)';
 
     nextHN.addEventListener("click" , () =>{

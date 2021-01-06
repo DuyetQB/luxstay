@@ -69,22 +69,29 @@ position: absolute;
     line-height: 40px;
     font-size: 32px;
     padding-left: 10px;
-    padding-top: 20px;
+    padding-top: 6px;
 }
 .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(3){
 padding-bottom: 20px;
 }
 .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4){
     border: 1px solid rgb(175, 174, 174);
-    width:200px;
-    height:70px;
+    width:130px;
+  
     position: relative;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    line-height: 20px;
+
+    display: var(--display);
+  
+    padding-bottom: 6px;
+justify-content: space-evenly;
+}
+.container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fas.fa-caret-down{
+    margin-left: 0px;
 }
 .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fake-nav-li-img{
     width: 30px;

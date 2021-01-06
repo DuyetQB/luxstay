@@ -6,6 +6,7 @@ var nextVT = document.querySelector("#nextVT");
 var counterVT = 0;
 var sizeVT = slideVT[0].clientWidth;
 prevVT.disabled = true;
+prevVT.style.opacity = "0.4";
 
 containerVT.style.transform = 'translateX(' + (-sizeVT * counterVT) + 'px)';
 

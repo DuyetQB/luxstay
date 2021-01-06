@@ -6,6 +6,7 @@ let nextSG = document.querySelector("#nextSG");
 let counterSG  = 0;
 let sizeSG = slideSG[0].clientWidth;
 prevSG.disabled = true;
+prevSG.style.opacity = "0.4";
 
 containerSG.style.transform = 'translateX(' + (-sizeSG * counterSG) + 'px)';
 

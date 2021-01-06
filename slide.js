@@ -6,6 +6,7 @@ let next = document.querySelector("#next");
 let counter  = 0;
 let size = slide[0].clientWidth;
 prev.disabled = true;
+ prev.style.opacity = "0.4";
 
 wrapSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 

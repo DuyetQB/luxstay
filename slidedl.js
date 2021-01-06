@@ -6,7 +6,7 @@ var nextDL = document.querySelector("#nextDL");
 var counterDL = 0;
 var sizeDL = slideDL[0].clientWidth;
 prevDL.disabled = true;
-
+prevDL.style.opacity = "0.4";
 containerDL.style.transform = 'translateX(' + (-sizeDL * counterDL) + 'px)';
 
     nextDL.addEventListener("click" , () =>{

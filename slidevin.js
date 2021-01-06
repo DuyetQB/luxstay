@@ -6,7 +6,7 @@ var nextVIN = document.querySelector("#nextVIN");
 var counterVIN = 0;
 var sizeVIN = slideVIN[0].clientWidth;
 prevVIN.disabled = true;
-
+prevVIN.style.opacity = "0.4";
 containerVIN.style.transform = 'translateX(' + (-sizeVIN * counterVIN) + 'px)';
 
     nextVIN.addEventListener("click" , () =>{
