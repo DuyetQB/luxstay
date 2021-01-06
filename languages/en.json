@@ -35,5 +35,20 @@
         "title-explore":"Make every trip an inspirational journey, and each room is a peaceful space",
         "title-use":"Quick booking, simple payment, easy to use",
         "title-watch-more":"watch more"
+    },
+
+    "price":{
+        "best-price":"SEARCH FOR THE BEST PRICE",
+        "best-price-title":"Luxstay is currently the # 1 online booking platform in Vietnam. With us, you have many experiences. With Luxstay, it becomes quick, convenient and easy to book accommodation, resort villas, hotels, private houses, apartments ..."
     }
+    ,
+    "about":{
+        "best-homestay":"TOP HOMESTAY FAVORITE",
+        "best-space":"SPACE FAVORITE ",
+        "about-us":"ABOUT US",
+        "down-load":"DOWNLOAD LUXSTAY APP"
+    }
+
+
+
 }

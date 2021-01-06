@@ -34,5 +34,17 @@
         "title-explore":"각 여행을 감동적인 여행으로 만들고 각 방은 평화로운 공간입니다.",
         "title-use":"빠른 예약, 간단한 결제, 사용하기 쉬운",
         "title-watch-more":"더보기 "
+    },
+
+    "price":{
+        "best-price":"최고의 홈스테이 인기",
+        "best-price-title":"Luxstay는 현재 베트남에서 # 1 온라인 예약 플랫폼입니다. 우리와 함께하면 많은 경험이 있습니다. Luxstay를 사용하면 숙박, 리조트 빌라, 호텔, 개인 주택, 아파트 등을 빠르고 편리하게 예약 할 수 있습니다."
+    }
+    ,
+    "about":{
+        "best-homestay":"최고의 홈스테이 인기",
+        "best-space":"즐겨 찾는 공간 ",
+        "about-us":"우리에 대해",
+        "down-load":"LUXSTAY 앱 다운로드"
     }
 }
