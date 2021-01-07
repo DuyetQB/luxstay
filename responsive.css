@@ -289,6 +289,15 @@ display: none;
 
 
 @media only screen and (min-width:740px) and (max-width:1023px){
+    .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li{
+        font-size: 20px;
+    }
+    .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fake-nav-li-img{
+        margin-top: 4px;
+    }
+    .container .fake-nav .fake-nav-child .fake-nav-ul .fake-nav-li:nth-child(4) .fas.fa-caret-down{
+        margin-top: 5px;
+    }
     .content{
         padding: 20px;
     }
