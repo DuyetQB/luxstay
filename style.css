@@ -368,7 +368,7 @@ font-weight: bold;
  top:80px;
  z-index: 4;
  line-height: 50px;
- opacity:0;
+ visibility: hidden;
  background: white;
  
 }
