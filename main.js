@@ -4,7 +4,7 @@ function myscroll(){
 let header = document.querySelector(".header");
 let sticky = header.offsetTop;
 
-if(window.pageYOffset >= 40 ){
+if(window.pageYOffset >= 10 ){
     header.classList.add("sticky");
 }
     else{
