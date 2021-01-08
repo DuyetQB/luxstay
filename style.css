@@ -368,12 +368,35 @@ font-weight: bold;
  top:80px;
  z-index: 4;
  line-height: 50px;
- visibility: hidden;
+ opacity:0;
  background: white;
  
 }
+.animation-tooltip{
+    animation: toTop 0.3s ease-in-out;
+    -webkit-animation: toTop 0.3s ease-in-out;
+}
 
+@keyframes toTop {
+    
+from{
+    transform: translateY(80px);
+    -webkit-transform: translateY(80px);
+    -moz-transform: translateY(80px);
+    -ms-transform: translateY(80px);
+    -o-transform: translateY(80px);
 
+    
+}
+to{
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+}
 
 .container .header .header-right .header-right-li:nth-child(4) .section::after{
     content: "";

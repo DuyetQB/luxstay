@@ -27,14 +27,16 @@ document.addEventListener("DOMContentLoaded", function(){
 
     icon.onclick = function(){
         if(current == "click1"){
-            nav.style.visibility = "visible";
-        
+            nav.style.opacity = "1";
+        nav.classList.add("animation-tooltip");
             current = "click2";
         }
         else if(current =="click2"){
+            nav.classList.remove("animation-tooltip");
           
-            nav.style.visibility = "hidden";
-           
+         
+           nav.style.opacity="0";
+
             current = "click1";
         }
     }
