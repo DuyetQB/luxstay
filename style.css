@@ -465,11 +465,15 @@ to{
   
     text-align: center;
 }
-.content .content-item-first .first-content-img{
-width:var(--width);
-height: var(--height);
-object-fit: fill;
-
+.content .content-item-first .first-content-img{ 
+    width:var(--width);
+     height: var(--height);
+      object-fit: fill;
+       border-radius: 15px;
+        -webkit-border-radius: 15px;
+         -moz-border-radius: 15px;
+          -ms-border-radius: 15px;
+           -o-border-radius: 15px;
 }
 
 .content .content-item-second{
