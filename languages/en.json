@@ -1,7 +1,7 @@
 {
     "header": {
-        "guest number":"Guest",
-        "days":"Days ",
+        "guest number":"Guests",
+        "days":"Dates ",
         "host"      : "Host",
         "sign-up" : "Sign up",
         "sign-in"   : "Sign in"
@@ -47,6 +47,9 @@
         "best-space":"SPACE FAVORITE ",
         "about-us":"ABOUT US",
         "down-load":"DOWNLOAD LUXSTAY APP"
+    },
+    "showcase":{
+        "search-placeholder":"search"
     }
 
 

@@ -46,5 +46,8 @@
         "best-space":"즐겨 찾는 공간 ",
         "about-us":"우리에 대해",
         "down-load":"LUXSTAY 앱 다운로드"
+    },
+    "showcase":{
+        "search-placeholder":"검색 "
     }
 }

@@ -46,6 +46,10 @@
         "best-space":"KHÔNG GIAN ƯA THÍCH ",
         "about-us":"VỀ CHÚNG TÔI",
         "down-load":"TẢI ỨNG DỤNG LUXSTAY"
+    },
+
+    "showcase":{
+        "search-placeholder":"tìm kiếm "
     }
 
 }

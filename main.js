@@ -17,29 +17,31 @@ if(window.pageYOffset >= 10 ){
 
 document.addEventListener("DOMContentLoaded", function(){
 
-
+ 
     let nav = document.querySelector(".section");
 
     let icon = document.querySelector("#icon-language");
-
+    let iconvn = document.querySelector("header-right-li-img");
     let current = "click1";
 
 
     icon.onclick = function(){
         if(current == "click1"){
-            nav.style.opacity = "1";
+            
             nav.style.visibility ="visible"
         nav.classList.add("animation-tooltip");
             current = "click2";
         }
         else if(current =="click2"){
             nav.classList.remove("animation-tooltip");
-          
+         
             nav.style.visibility ="hidden";
          
 
             current = "click1";
         }
+
+        
     }
 },false);
 // hide and show the flag
