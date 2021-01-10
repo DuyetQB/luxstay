@@ -871,21 +871,27 @@
        
       
     
-        // if(i18n.lng() === "vi") {
+        $(document).ready(function(){
+      
+
+        if(i18n.lng() === "vi") {
            
-        //    iconvn.innerHTML= "<img class='header-right-li-img' src='https://www.luxstay.com/icons/vi.svg'/> + '<span class='header-right-li-span'>VND</span>' + '<i class='fas fa-caret-down' aria-hidden='true'></i>'" ;
-        // }
-        // if(i18n.lng() === "en") {
+        //   $("#icon-language").html("<img class='header-right-li-img'src='https://www.luxstay.com/icons/vi.svg'/><span class='header-right-li-span'>VND</span><i class='fas fa-caret-down' aria-hidden='true'></i>");
+        }
+         
+       
+
+        if(i18n.lng() === "en") {
+         
+            // $("#icon-language").html("<img class='header-right-li-img'src='https://www.luxstay.com/icons/en.svg'/><span class='header-right-li-span'>VND</span><i class='fas fa-caret-down' aria-hidden='true'></i>");
+        }
+        if(i18n.lng() === "ko") {
            
-        //    iconvn.innerHTML= "<img class='header-right-li-img' src='https://www.luxstay.com/icons/en.svg'/> + '<span class='header-right-li-span'>VND</span>' + '<i class='fas fa-caret-down' aria-hidden='true'></i>'" ;
-        // }
-        // if(i18n.lng() === "ko") {
-           
-        //    iconvn.innerHTML= "<img class='header-right-li-img' src='https://www.luxstay.com/icons/ko.svg'/> + '<span class='header-right-li-span'>VND</span>' + '<i class='fas fa-caret-down' aria-hidden='true'></i>'" ;
-        // }
+            // $("#icon-language").html("<img class='header-right-li-img'src='https://www.luxstay.com/icons/ko.svg'/><span class='header-right-li-span'>VND</span><i class='fas fa-caret-down' aria-hidden='true'></i>");
+        }
 
 
-            
+    });
 
 
         // Change languages when click

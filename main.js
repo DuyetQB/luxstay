@@ -1,16 +1,16 @@
 
-window.onscroll = function(){ myscroll()};
-function myscroll(){
-let header = document.querySelector(".header");
-let sticky = header.offsetTop;
+// window.onscroll = function(){ myscroll()};
+// function myscroll(){
+// let header = document.querySelector(".header");
+// let sticky = header.offsetTop;
 
-if(window.pageYOffset >= 10 ){
-    header.classList.add("sticky");
-}
-    else{
-    header.classList.remove("sticky");
-}
-}
+// if(window.pageYOffset >= 10 ){
+//     header.classList.add("sticky");
+// }
+//     else{
+//     header.classList.remove("sticky");
+// }
+// }
 
 
 
@@ -21,22 +21,24 @@ document.addEventListener("DOMContentLoaded", function(){
     let nav = document.querySelector(".section");
 
     let icon = document.querySelector("#icon-language");
-    let iconvn = document.querySelector("header-right-li-img");
+   
     let current = "click1";
 
 
     icon.onclick = function(){
         if(current == "click1"){
-            
-            nav.style.visibility ="visible"
+            nav.style.visibility="visible";
+           
         nav.classList.add("animation-tooltip");
+    //    nav.style.opacity="1";
+          
             current = "click2";
         }
         else if(current =="click2"){
             nav.classList.remove("animation-tooltip");
          
-            nav.style.visibility ="hidden";
-         
+           
+            // nav.style.opacity="0"
 
             current = "click1";
         }
