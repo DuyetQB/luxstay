@@ -50,6 +50,10 @@
 
     "showcase":{
         "search-placeholder":"Tìm kiếm "
+    },
+    "icon":{
+        "small-icon":"https://www.luxstay.com/icons/vi.svg"
     }
-
+    
+    
 }

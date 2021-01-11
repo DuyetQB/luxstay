@@ -50,7 +50,12 @@
     },
     "showcase":{
         "search-placeholder":"search"
+    },
+    "icon":{
+        "small-icon":"https://www.luxstay.com/icons/en.svg"
     }
+
+    
 
 
 

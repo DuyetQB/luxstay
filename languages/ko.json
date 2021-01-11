@@ -49,5 +49,9 @@
     },
     "showcase":{
         "search-placeholder":"검색 "
+    },
+    "icon":{
+        "small-icon":"https://www.luxstay.com/icons/ko.svg"
     }
+   
 }

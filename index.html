@@ -86,23 +86,23 @@
                     <li class="header-right-li"data-i18n="header.sign-up">Đăng kí </li>
                     <li class="header-right-li"data-i18n="header.sign-in">Đăng nhập </li>
                     <li class="header-right-li" id = "icon-language">
-                        <img class="header-right-li-img" src="https://www.luxstay.com/icons/vi.svg" alt="">
+                        <img data-i18n="[src]icon.small-icon"class="header-right-li-img" src="https://www.luxstay.com/icons/vi.svg" alt="" >
                         <span class="header-right-li-span">VND</span>
                         <i class="fas fa-caret-down"></i>
                         <section class="section" id="main-section">
                             <li class="section-li">
-                                <img src="https://www.luxstay.com/icons/vi.svg"  alt="" class="section-li-img">
+                                <img src="https://www.luxstay.com/icons/vi.svg"  alt="" class="section-li-img" id="vnicon">
                             <span class = "vietnamese">Tiếng Việt </span>
                             </li>
                             <li class="section-li">VND Việt Nam Đồng </li>
                            
                             <li class="section-li">
-                                <img src="https://www.luxstay.com/icons/en.svg" alt="" class="section-li-img">
+                                <img src="https://www.luxstay.com/icons/en.svg" alt="" class="section-li-img"id="enicon">
                                 <span class="english">English</span>
                             </li>
                             <li class="section-li">USD United States Dollar</li>
                             <li class="section-li">
-                                <img src="https://www.luxstay.com/icons/ko.svg" alt="" class="section-li-img">
+                                <img src="https://www.luxstay.com/icons/ko.svg" alt="" class="section-li-img"id="koicon">
                                 <span class="korean">Korean</span>
                             </li>
                             
@@ -871,28 +871,14 @@
        
       
     
-        $(document).ready(function(){
       
 
-        if(i18n.lng() === "vi") {
+        // if(i18n.lng() === "vi") {
            
-        //   $("#icon-language").html("<img class='header-right-li-img'src='https://www.luxstay.com/icons/vi.svg'/><span class='header-right-li-span'>VND</span><i class='fas fa-caret-down' aria-hidden='true'></i>");
-        }
+        //   $(".header-right-li-img").html("<img class='header-right-li-img'src='https://www.luxstay.com/icons/vi.svg'/><span class='header-right-li-span'>VND</span><i class='fas fa-caret-down' aria-hidden='true'></i>");
+        // }
          
        
-
-        if(i18n.lng() === "en") {
-         
-            // $("#icon-language").html("<img class='header-right-li-img'src='https://www.luxstay.com/icons/en.svg'/><span class='header-right-li-span'>VND</span><i class='fas fa-caret-down' aria-hidden='true'></i>");
-        }
-        if(i18n.lng() === "ko") {
-           
-            // $("#icon-language").html("<img class='header-right-li-img'src='https://www.luxstay.com/icons/ko.svg'/><span class='header-right-li-span'>VND</span><i class='fas fa-caret-down' aria-hidden='true'></i>");
-        }
-
-
-    });
-
 
         // Change languages when click
         // English

@@ -21,7 +21,13 @@ document.addEventListener("DOMContentLoaded", function(){
     let nav = document.querySelector(".section");
 
     let icon = document.querySelector("#icon-language");
-   
+
+    // let mainIcon = document.querySelector("#main-vnicon");
+    // let vnIcon = document.querySelector("#vnicon");
+    // let enIcon = document.querySelector("#enicon");
+    // let koIcon = document.querySelector("#koicon");
+    // let liIcon = document.getElementsByClassName(".section-li");
+
     let current = "click1";
 
 
@@ -45,6 +51,22 @@ document.addEventListener("DOMContentLoaded", function(){
 
         
     }
+
+    // liIcon[0].onclick = function(){
+      
+    //     // alert("1");
+    //     mainIcon.innerHTML = vnIcon;
+    // }
+    // liIcon[2].onclick = function(){
+        
+    //     // alert("3");
+    //     mainIcon.innerHTML = enIcon;
+    // }
+    // liIcon[4].onclick = function(){
+       
+    //     // alert("4");
+    //     mainIcon.innerHTML = koIcon;
+    // }
 },false);
 // hide and show the flag
 
