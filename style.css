@@ -492,7 +492,7 @@ color: #222;
 }
 .content{
     width:var(--width);
-    height:95%;
+    height:95.5%;
     padding:44px ;
   margin-top: 5rem;
    
@@ -1661,14 +1661,14 @@ margin-right: 135px;
     height:var(--height);
 }
 .content .contact{
-height:560px;
+height:550px;
 
 display:var(--display);
 }
 .content .contact .contact-item{
 
 width:20%;
-height:var(--height);
+height:80%;
 margin-top: 60px;
 }
 .content .contact .contact-item .contact-item-widget-h3{
@@ -1760,7 +1760,7 @@ width:90px;
 height:40px;
 }
 .content .pay{
-    height:200px;
+    height:100px;
   
     display: var(--display);
    justify-content: flex-end;
@@ -1836,7 +1836,7 @@ display:var(--display);
 }
 .footer{
     width:var(--width);
-    height:4%;
+    height:3.5%;
    border-top: 1px solid rgb(235, 234, 234);
     padding: 50px;
     text-align: center;
