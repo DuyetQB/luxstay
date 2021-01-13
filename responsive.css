@@ -246,7 +246,7 @@ display: none;
     }
     .content .contact{
      
-        height:450px;
+        height:350px;
     }
     .content .contact .contact-item{
         height: 70%;
@@ -260,6 +260,7 @@ display: none;
     }
     .content .pay{
         flex-direction: column;
+        height: 344px;
     }
     .content .pay .pay-item{
         padding-top: 20px;
@@ -273,7 +274,7 @@ display: none;
     .content .pay .pay-item .pay-item-images .pay-btc{
         height:60px;object-fit: fill;
         margin-left: 0px;
-        width:200px;
+        width:197px;
     }
     .content .pay .pay-item .pay-item-images .pay-dmck{
         width:140px;
