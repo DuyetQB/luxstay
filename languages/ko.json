@@ -52,6 +52,9 @@
     },
     "icon":{
         "small-icon":"https://www.luxstay.com/icons/ko.svg"
+    },
+    "copyright":{
+    "copyright-title1":"© 2021 Luxstay. 저작권 : Luxstay Vietnam Company Limited-MSDN : 0108308449. 모든 복사는 서면 허가없이 불법입니다.",
+    "copyright-title2":"21 층 캐피탈 타워 No. 109 Tran Hung Dao, Cua Nam Ward, Hoan Kiem District, Hanoi."
     }
-   
 }

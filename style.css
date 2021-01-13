@@ -790,6 +790,7 @@ margin-top: 10px;
 }
 .content .travelSG .travel-slider-container .travelSG-wrap .travelSG-slide .travel-item-detail .travel-item-detail-h5{
     text-transform: uppercase;
+    font-weight: 500;
     color:gray;
     
 }
@@ -885,6 +886,7 @@ margin-top: 10px;
   .content .travelVT .travelVT-slider-container .travelVT-wrap .travelVT-slide .travelVT-item-detail .travelVT-item-detail-h5{
       color:gray;
       text-transform: uppercase;
+      font-weight: 500;
   }
   
   .content .travelVT .travelVT-slider-container .travelVT-wrap .travelVT-slide .travelVT-item-detail .travelVT-item-detail-live:hover{
@@ -994,6 +996,7 @@ margin-top: 10px;
 .content .travelHN .travelHN-slider-container .travelHN-wrap .travelHN-slide .travelHN-item-detail .travelHN-item-detail-h5{
     color:gray;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .content .travelHN .travelHN-slider-container .travelHN-wrap .travelHN-slide .travelHN-item-detail .travelHN-item-detail-live:hover{
@@ -1106,6 +1109,7 @@ margin-top: 10px;
 .content .travelDL .travelDL-slider-container .travelDL-wrap .travelDL-slide .travelDL-item-detail .travelDL-item-detail-h5{
     text-transform: uppercase;
     color:gray;
+    font-weight: 500;
 }
 .content .travelDL .travelDL-slider-container .travelDL-wrap .travelDL-slide .travelDL-item-detail .travelDL-item-detail-live:hover{
     color:var(--textColor);
@@ -1201,6 +1205,7 @@ margin-top: 10px;
 .content .travelVIN .travelVIN-slider-container .travelVIN-wrap .travelVIN-slide .travelVIN-item-detail .travelVIN-item-detail-h5{
     color:gray;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .content .travelVIN .travelVIN-slider-container .travelVIN-wrap .travelVIN-slide .travelVIN-item-detail .travelVIN-item-detail-live:hover{
@@ -1325,7 +1330,7 @@ left:0px;
     position: absolute;
     top:60%;
     left:5%;
-    font-weight: bold;
+    font-weight:500;
    font-size: 17px;
 }
 
@@ -1352,6 +1357,7 @@ left:0px;
 .content .travelEXPLORE .travelEXPLORE-detail{
   margin-top: 10px;
   margin-bottom: 20px ;
+  
 }
 .content .travelEXPLORE #nextEXPLORE,#prevEXPLORE{
   width:50px ;

@@ -53,9 +53,12 @@
     },
     "icon":{
         "small-icon":"https://www.luxstay.com/icons/en.svg"
-    }
+    },
 
-    
+    "copyright":{
+    "copyright-title1":"© 2021 Luxstay. Copyright by Luxstay Vietnam Company Limited - MSDN: 0108308449. All copying is illegal without our written permission.",
+    "copyright-title2":"Level 21, Capital Tower Building No. 109 Tran Hung Dao Street, Cua Nam Ward, Hoan Kiem District, Hanoi."
+    }
 
 
 

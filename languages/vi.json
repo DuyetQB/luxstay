@@ -1,8 +1,8 @@
 {
     "header": {
         "guest number":"Số khách ",
-        "days":"ngày ",
-        "host"      : "host",
+        "days":"Ngày ",
+        "host"      : "Host",
         "sign-up" : "Đăng kí ",
       
         "sign-in"   : "Đăng nhập " 
@@ -53,6 +53,11 @@
     },
     "icon":{
         "small-icon":"https://www.luxstay.com/icons/vi.svg"
+    },
+
+    "copyright":{
+    "copyright-title1":"© 2021 Luxstay. Bản quyền thuộc về Công ty TNHH Luxstay Việt Nam - MSDN: 0108308449. Mọi hành vi sao chép đều là phạm pháp nếu không có sự cho phép bằng văn bản của chúng tôi.",
+    "copyright-title2":"Tầng 21 tòa nhà Capital Tower số 109 phố Trần Hưng Đạo, phường Cửa Nam, quận Hoàn Kiếm, Hà Nội."
     }
     
     
