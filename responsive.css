@@ -329,6 +329,10 @@ display: none;
     .content .discount .discount-images .discount-wrap .discount-images-img{
         width:340px
     }
+
+
+
+  
     .content .content-item-second .second-images-wellcome .second-images-wrap .item-images{
         width: 162px;
     }
@@ -398,7 +402,15 @@ width:100px !important;
         white-space: pre-wrap;
     }
 
-
+    .content .travelUSE .travelUSE-slider-container .travelUSE-slide{
+        width: 1600px;
+    }
+    .content .travelUSE .travelUSE-slider-container .travelUSE-wrap{
+        width: 200%;
+    }
+    .content .travelUSE .travelUSE-slider-container .travelUSE-slide .travelUSE-img{
+        object-fit: contain;
+    }
 
 
 }
