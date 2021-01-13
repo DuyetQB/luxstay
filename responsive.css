@@ -89,13 +89,13 @@
     }
     .content .content-item-second .second-text-welcome{
  white-space: pre-line;
-    height:50%;
+  
     }
     .content .content-item-second .second-text-welcome .text-wellcome-h1{
         margin-top: 0;
     }
     .content .content-item-second .second-images-wellcome{
-        height: 50%;
+       
         overflow-x: scroll;
        
     }
